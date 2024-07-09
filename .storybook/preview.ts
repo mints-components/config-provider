@@ -2,6 +2,7 @@ import type { Preview } from '@storybook/react';
 
 const preview: Preview = {
   parameters: {
+    deepControls: { enabled: true },
     actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
       matchers: {

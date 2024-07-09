@@ -2642,6 +2642,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     storybook: ^7.2.1
+    storybook-addon-deep-controls: ^0.6.2
     typescript: ^5.0.2
     vite: ^4.4.5
   peerDependencies:
@@ -11339,6 +11340,16 @@ __metadata:
   version: 2.14.2
   resolution: "store2@npm:2.14.2"
   checksum: 6f270fc5bab99b63f45fcc7bd8b99c2714b4adf880f557ed7ffb5ed3987131251165bccde425a00928aaf044870aee79ddeef548576d093c68703ed2edec45d7
+  languageName: node
+  linkType: hard
+
+"storybook-addon-deep-controls@npm:^0.6.2":
+  version: 0.6.2
+  resolution: "storybook-addon-deep-controls@npm:0.6.2"
+  peerDependencies:
+    "@storybook/addon-controls": 7.x.x || 8.x.x
+    storybook: 7.x.x || 8.x.x
+  checksum: 24928d4f26904c5023ba532568e0f8f613888514208bc75bdee5928e7f28937cb0d66b8d3845243afb92e718f47ff8f3ecb9cf9b5147b7c15152b6b624f85d0e
   languageName: node
   linkType: hard
 

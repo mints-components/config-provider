@@ -2615,9 +2615,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mints/component-template@workspace:.":
+"@mints/config-provider@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@mints/component-template@workspace:."
+  resolution: "@mints/config-provider@workspace:."
   dependencies:
     "@mints/eslint-config": ^1.0.0-beta.1
     "@storybook/addon-essentials": ^7.2.1

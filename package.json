@@ -1,17 +1,17 @@
 {
-  "name": "@mints/component-template",
+  "name": "@mints/config-provider",
   "packageManager": "yarn@3.6.1",
   "version": "1.0.0",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/my-component.umd.cjs",
-  "module": "./dist/my-component.js",
+  "main": "./dist/config-provider.umd.cjs",
+  "module": "./dist/config-provider.js",
   "exports": {
     ".": {
-      "import": "./dist/my-component.js",
-      "require": "./dist/my-component.umd.cjs"
+      "import": "./dist/config-provider.js",
+      "require": "./dist/config-provider.umd.cjs"
     }
   },
   "scripts": {

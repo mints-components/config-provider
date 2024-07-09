@@ -10,8 +10,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: 'my-component',
-      fileName: 'my-component',
+      name: 'config-provider',
+      fileName: 'config-provider',
     },
     rollupOptions: {
       external: ['react'],

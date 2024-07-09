@@ -1,3 +1,3 @@
-# Template Component
+# Config Provider
 
-> Template for Mints Component
+> Config Provider for Mints
